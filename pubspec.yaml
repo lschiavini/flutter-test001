@@ -1,0 +1,33 @@
+name: demo
+description: A new Flutter project.
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.19.4 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Responsible for the dependency injection system and route management
+  flutter_modular: 5.0.3
+
+  # A composable, Future-based library for making HTTP requests
+  http: 0.13.5
+
+  # Library for error handling and railway oriented programming
+  either_dart: 0.3.0
+
+  cupertino_icons: ^1.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
